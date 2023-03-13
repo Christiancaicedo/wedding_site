@@ -137,8 +137,12 @@ div.background {
     margin-bottom: 15px;
 }
 
+.roundImg {
+    border-radius: 5px;
+}
+
 @media (min-width: 992px) {
-    #howWeMetMobile {
+    #ourStoryMobile {
         display: none;
     }
 
@@ -164,11 +168,11 @@ div.background {
 }
 
 @media (max-width: 991px) {
-    #howWeMetMobile {
+    #ourStoryMobile {
         display: contents;
     }
 
-    #howWeMetDesktop {
+    #ourStoryDesktop {
         display: none;
     }
 
@@ -187,11 +191,11 @@ div.background {
 }
 
 @media (max-width: 576px) {
-    #howWeMetDesktop {
+    #ourStoryDesktop {
         display: none;
     }
     
-    #howWeMetMobile {
+    #ourStoryMobile {
         display: contents;
     }
 
