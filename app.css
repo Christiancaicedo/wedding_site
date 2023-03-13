@@ -83,7 +83,7 @@ div.background {
     color: white;
 }
 
-.navbar:hover {
+.nav-link:hover {
     text-decoration: underline;
     transition: 1s;
 }
