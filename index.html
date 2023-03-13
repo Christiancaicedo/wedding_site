@@ -28,6 +28,53 @@
 </head>
 
 <body>
+    <section class="container-fluid px-0" id="mobileNav">
+        <div class="row align-items-center">
+            <div class="text-center px-0 background">
+                <div class="col-12 pt-5 pt-md-3 pt-sm-0 headings">
+                    <div class="container mx-auto order-sm-1">
+                        <nav id="mainNavbar" class="navbar bg-none navbar-light navbar-expand-md px-auto" >
+                            <button class="navbar-toggler navbar-toggler-left" data-bs-toggle="collapse" data-bs-target="#navlinks"
+                                aria-label="Toggle Navbar" style="color:#ffffff">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse justify-content-center" id="navlinks">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a href="" class="nav-link">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="" class="nav-link">Our Story</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="" class="nav-link">Travel</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="" class="nav-link">Things to Do</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="" class="nav-link">Photos</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="" class="nav-link">Wedding Party</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="" class="nav-link">Registry</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="" class="nav-link">RSVP</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                    <h1 class="title">Christian & Marti</h1>
+                    <h3 class="sub-title">MARCH 23, 2024 - AUSTIN, TX</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section class="container-fluid px-0" id="mainSection">
         <div class="row align-items-center">
             <div class="text-center px-0 background">
@@ -82,11 +129,34 @@
         </div>
     </section>
 
-    <section class="container-fluid">
-        <div class="container text-center pt-5 sectionTitle">
+    <section class="container">
+        <div class="text-center pt-5 sectionTitle">
             <h1>Our Story</h1>
         </div>
-        <div class="text-center sectionTitle">
+        <div class="sectionTitle">
+            <div class="row" id="howWeMetDesktop" >
+                <div class="col-12 text-left d-flex align-items-center">
+                    <div class="col-3 mx-4">
+                        <h2 class="">How We Met</h2>
+                        <picture>
+                            <source media="(max-width:720px)" srcset="images\babiesbreath-3-small.png">
+                            <img src="images\boise2.jpg" alt="" class="img-fluid d-flex mx-auto babiesBreath">
+                        </picture>
+                    </div>
+                    <div class="col-8 my-md-5 my-sm-2 text-left d-block" id="howWeMetDesktop">
+                        <p class="lead howWeMetP">We both moved to Austin in Summer 2016, Christian to pursue music, and Marti to explore a new city and pursue event planning.</p>
+                        <p class="lead">Shortly after, we were both on Bumble meeting new people, and matched. We soon discovered a lot in common - love of food, we had 
+                            both been at Paradiso in 2013, and Christian had almost moved to Seattle before settling on Austin.</p>
+                        <p class="lead">Our first date was almost a disaster - Christian on crutches from a recent knee injury and an “espresso” martini (think vodka 
+                            with chocolate sauce and old drip coffee). It turned out to be the best date, because we just had to laugh at the ridiculousness of it all. 
+                            We stayed up WAYYYY too late talking, and the rest is history.</p>
+                        <p class="lead">Fast forward over the next 5 years: We moved in together late 2017, got our dog - Reece, moved into a couple different apartments, 
+                            got another cat, and survived COVID quarantine in a 1 bedroom, 900 sq ft apartment without killing each other.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center sectionTitle" id="howWeMetMobile">
             <div class="row justify-content-center">
                 <div class="col-10 col-lg-6 my-md-5 my-sm-2">
                     <picture>
@@ -95,18 +165,39 @@
                     </picture>
                     <h2 class="mt-3">How We Met</h2>
                     <p class="lead howWeMetP">We both moved to Austin in Summer 2016, Christian to pursue music, and Marti to explore a new city and pursue event planning.</p>
-                    <p class="lead">Shortly after, we were both on Bumble meeting new people, and matched. We soon discovered a lot in common - love of food, we had 
-                        both been at Paradiso in 2013, and Christian had almost moved to Seattle before settling on Austin.</p>
-                    <p class="lead">Our first date was almost a disaster - Christian on crutches from a recent knee injury and an “espresso” martini (think vodka 
-                        with chocolate sauce and old drip coffee). It turned out to be the best date, because we just had to laugh at the ridiculousness of it all. 
-                        We stayed up WAYYYY too late talking, and the rest is history.</p>
-                    <p class="lead">Fast forward over the next 5 years: We moved in together late 2017, got our dog - Reece, moved into a couple different apartments, 
-                        got another cat, and survived COVID quarantine in a 1 bedroom, 900 sq ft apartment without killing each other.</p>
+                        <p class="lead">Shortly after, we were both on Bumble meeting new people, and matched. We soon discovered a lot in common - love of food, we had 
+                            both been at Paradiso in 2013, and Christian had almost moved to Seattle before settling on Austin.</p>
+                        <p class="lead">Our first date was almost a disaster - Christian on crutches from a recent knee injury and an “espresso” martini (think vodka 
+                            with chocolate sauce and old drip coffee). It turned out to be the best date, because we just had to laugh at the ridiculousness of it all. 
+                            We stayed up WAYYYY too late talking, and the rest is history.</p>
+                        <p class="lead">Fast forward over the next 5 years: We moved in together late 2017, got our dog - Reece, moved into a couple different apartments, 
+                            got another cat, and survived COVID quarantine in a 1 bedroom, 900 sq ft apartment without killing each other.</p>
                 </div>
             </div>
         </div>
 
-        <div class="text-center sectionTitle">
+        <div class="sectionTitle">
+            <div class="row" id="howWeMetDesktop" >
+                <div class="col-12 text-left d-flex align-items-center">
+                    <div class="col-8 my-md-5 my-sm-2 text-left d-block" id="howWeMetDesktop">
+                        <p class="lead howWeMetP">We went to Boise for Christmas 2021, to spend the holidays with family. Marti’s parents drove down from Seattle, as they had 
+                            the year prior and we were celebrating Gianna and Justin’s recent engagement as well.</p>
+                        <p class="lead">Christian planned a huge surprise, with the help of Karin and Gianna. We showed up at the botanical garden’s Christmas lights 
+                            display, a photographer friend staged to “run into” us and snap a few photos.</p>
+                        <p class="lead">A custom designed ring, one one knee later - we’re engaged!</p>
+                    </div>
+                    <div class="col-3 mx-4">
+                        <h2 class="">The Proposal</h2>
+                        <picture>
+                            <source media="(max-width:720px)" srcset="images\babiesbreath-3-small.png">
+                            <img src="images\boise2.jpg" alt="" class="img-fluid d-flex mx-auto babiesBreath">
+                        </picture>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="text-center sectionTitle" id="howWeMetMobile">
             <div class="row justify-content-center">
                 <div class="col-10 col-lg-6 my-md-5 my-sm-2">
                     <picture>
@@ -122,8 +213,27 @@
                 </div>
             </div>
         </div>
-
-        <div class="text-center sectionTitle">
+        
+        <div class="sectionTitle">
+            <div class="row" id="howWeMetDesktop" >
+                <div class="col-12 text-left d-flex align-items-center">
+                    <div class="col-3 mx-4">
+                        <h2 class="">Where We Are Now</h2>
+                        <picture>
+                            <source media="(max-width:720px)" srcset="images\babiesbreath-3-small.png">
+                            <img src="images\boise2.jpg" alt="" class="img-fluid d-flex mx-auto babiesBreath">
+                        </picture>
+                    </div>
+                    <div class="col-8 my-md-5 my-sm-2 text-left d-block" id="howWeMetDesktop">
+                        <p class="lead howWeMetP">We spent the next year in that 900 sq ft apartment, saving for a house & wedding, and paying off debt. In early 2022, we started 
+                            searching for a house, and in May, we lucked out with an off-market deal. We moved in in October, and shortly after got another dog - Barley. 
+                            2 dogs, 2 cats, a beautiful house later, we decided we should probably start on planning this party…</p>
+                        <p class="lead">Y’all, we are so excited to welcome everyone to this amazing city we both now call home, and LET’S PARTY!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center sectionTitle" id="howWeMetMobile">
             <div class="row justify-content-center">
                 <div class="col-10 col-lg-6 my-md-5 my-sm-2">
                     <picture>

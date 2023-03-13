@@ -137,13 +137,21 @@ div.background {
     margin-bottom: 15px;
 }
 
-@media (min-width: 920px) {
+@media (min-width: 992px) {
+    #howWeMetMobile {
+        display: none;
+    }
+
     .title {
         padding-top: 7em;
     }
 
     #mainNavbar {
         padding-bottom: 2em;
+    }
+
+    #mobileNav {
+        display: none;
     }
 
     .background div {
@@ -155,7 +163,19 @@ div.background {
     }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 991px) {
+    #howWeMetMobile {
+        display: contents;
+    }
+
+    #howWeMetDesktop {
+        display: none;
+    }
+
+    #mobileNav {
+        display: none;
+    }
+
     .title {
         padding-top: 4em;
     }
@@ -167,6 +187,27 @@ div.background {
 }
 
 @media (max-width: 576px) {
+    #howWeMetDesktop {
+        display: none;
+    }
+    
+    #howWeMetMobile {
+        display: contents;
+    }
+
+    #mainSection {
+        display: none;
+    }
+
+    #mainNav {
+        background-color: white;
+    }
+
+    #mobileNav {
+        display: contents;
+        /* background-color: none; */
+    }
+
     .title {
         padding-top: 4em;
     }
@@ -183,4 +224,8 @@ div.background {
     .lead {
         font-size: 36px;
     }
+
+    .custom-toggler.navbar-toggler {
+        border-color: rgb(255,102,203);
+      } 
 }
